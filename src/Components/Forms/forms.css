@@ -1,0 +1,357 @@
+/* Login Form Start */
+.hidden-md{
+    display: none;
+}
+.formstartcls {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-image: linear-gradient(to bottom right,rgba(0, 0, 0, 0.97),rgba(0, 0, 0, 0.87), rgba(0, 0, 0, 0.9)); */
+    background:url('../../Images/Reeflix.png'),#000;
+    background-repeat: repeat;
+    background-size: contain;
+    position: relative;
+}
+.loginoverlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #000000e6;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    /* background-image: linear-gradient(to bottom right, #420101d9, #330000c4,#27000085,#00000063,#00000063); */
+}
+.inerformfield {
+    position: relative;
+}
+.MuiCard-root.formcard-start {
+    width: 52%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    padding: 34px 40px;
+    border-radius: 5px;
+    position: relative;
+}
+.loginbutn-area{
+    width: 100%;
+}
+.authlogoarea {
+    width: 40%;
+    margin: 0 auto 35px;
+}
+h3.formheading {
+    font-size: 1.313em;
+    font-weight: 400;
+    color: #404040;
+    margin: 0 0 43px;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+}
+.MuiTextField-root.textfieldclass.loginform-field .MuiOutlinedInput-inputMarginDense {
+    width: 270px;
+    padding: 0;
+    height: 100%;
+    padding-left: 10px;
+}
+.formcard-start .formfieldcls {
+    margin-bottom: 27px;
+}
+.textfield-inputstart{
+    position: relative;
+
+}
+p.forgotpswrd-txt {
+    margin: 0;
+    font-size: 0.854em;
+    text-align: right;
+    margin-top: 10px;
+    color: #5a5a5a;
+    font-family: 'Roboto', sans-serif;
+}
+.MuiFormControl-root.loginform-field .MuiOutlinedInput-root.Mui-focused:focus{
+    border: 1px solid #2a2a2a !important;
+    outline: 0;
+}
+button.MuiButtonBase-root.loginbuttn {
+    width: 100%;
+    font-size: 0.867em;
+    height: 44px;
+    border-radius: 4px;
+}
+.loginbutn-area .buttoncomponent-start {
+    width: 100%;
+}
+.loginbutn-area.signupbutn-area .buttoncomponent-start {
+    width: 22%;
+}
+a.linktext {
+    color: #292929;
+    text-decoration: none;
+    font-weight: 500;
+}
+p.forsignuptxt {
+    text-align: center;
+    font-size: 0.854em;
+    color: #5a5a5a;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 0;
+    margin-top: 40px;
+}
+/* form.login-innerform {
+    position: relative;
+} */
+.MuiTextField-root.loginform-field .MuiInputAdornment-root {
+    max-height: 40px;
+    min-height: 40px;
+    margin: 0;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    border-right: 1px solid #c4c4c4;
+}
+.MuiTextField-root.loginform-field svg.MuiSvgIcon-root {
+    color: #adadad;
+    font-size: 18px;
+}
+.MuiTextField-root.textfieldclass.loginform-field .MuiInputBase-root{
+    padding-left: 0;
+}
+.loginbutn-area a {
+    text-decoration: none;
+}
+a.linktext:hover {
+    color: #3a3a3a;
+}
+.login-innerform a.linktext:hover{
+    text-decoration: underline;
+
+}
+/* Login Form end */
+
+/* Forgot Password Form start */
+.MuiCard-root.formcard-start.forgotpswrd-card {
+    width: 325px;
+}
+p.forgotpaswrdtxt {
+    font-size: 13px;
+    text-align: left;
+    margin: 0 0 20px;
+    color: #7a7a7a;
+    font-weight: 400;
+    line-height: 18px;
+}
+/* Forgot Password Form end */
+/* Reset Password Form start */
+a.linktext.gotoback {
+    border-bottom: 1px solid;
+}
+/* Reset Password Form end */
+
+/* Sign Up Form start */
+.signup-innerform .MuiTextField-root.textfieldclass .MuiInputBase-root {
+    height: 35px;
+}
+.signup-innerform .selectfieldinput .MuiInput-underline.selectinput {
+    height: 35px;
+}
+.signup-innerform .newdatetimefield .react-datepicker__input-container input {
+    height: 30px;
+}
+.signup-innerform .newdatetimefield .react-datepicker__close-icon {
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.formstartcls.signupformstart {
+    height: auto;
+    padding: 30px 0;
+}
+/* .signupformstart .inerformfield {
+    padding: 30px 0;
+} */
+span.datepickerlabel.doblabel {
+    color: rgba(0, 0, 0, 0.54);
+    font-weight: 400;
+}
+.dobinputcls.newdatetimefield .react-datepicker__input-container input {
+    border: 1px solid #c5c5c5;
+    font-size: 14px;
+    color: #1f2123;
+}
+.dobinputcls.newdatetimefield .react-datepicker-wrapper button::after {
+    background-color: #c4c5c3;
+}
+.dobinputcls.newdatetimefield .react-datepicker__close-icon {
+    background-color: #c4c5c4;
+}
+.authlogoarea.signuplogo {
+    width: 23%;
+}
+.formheader h3.formheading {
+    margin-bottom: 8px;
+    text-align: left;
+    font-size: 1.375em;
+}
+.formheader p.forgotpaswrdtxt{
+    text-align: left;
+    font-size: 14px;
+}
+.MuiCard-root.formcard-start.signupform-card{
+    width: 600px;
+    padding: 25px 25px;
+}
+.signupformstart button.MuiButtonBase-root.loginbuttn {
+    width: 100%;
+    padding: 0 18px;
+}
+.signupformstart .buttoncomponent-start{
+    text-align: right;
+}
+.signup-innerform .formfieldcls {
+    margin-bottom: 0;
+}
+.formerrormsg-area {
+    position: absolute;
+    width: auto;
+    min-width: 82%;
+    /* background: #fff1f1; */
+    top: 14%;
+    left: 9%;
+}
+p.formerrortxt {
+    color: red;
+    margin: 0;
+    font-size: 12px;
+    padding: 8px 8px;
+    background: #f9514b2e;
+    text-align: left;
+    border-left: 3px solid #fa6e48;
+    border-radius: 2px;
+}
+
+/* Sign Up Form end */
+.forgotpasswordmaincls .inerformfield {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+/* checkbox start */
+p.checkboxtext{
+    font-family: 'Roboto', sans-serif;
+    color: #7a7a7a;
+    padding: 0;
+    font-size: 13px;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.00938em;
+    margin: 0;
+}
+p.checkboxtext a{
+    color: #5a5a5a;
+    font-weight: 500;
+}
+.loginbutn-area {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0 0;
+}
+
+/* checkbox end */
+
+
+/* Responsive start for mobile view*/
+@media screen and (min-width:320px) and (max-width:767px){
+    .authlogoarea {
+        margin: 20px auto;
+    }
+    .signuplogo-responsive{
+        display: block;
+    }
+    .hidden-md{
+        display: block;
+    }
+    .MuiCard-root.formcard-start{
+        padding: 30px 28px;
+    }
+    .MuiTextField-root.textfieldclass.loginform-field .MuiOutlinedInput-inputMarginDense {
+        width: 250px;
+    }
+    .MuiCard-root.formcard-start.forgotpswrd-card {
+        width: 290px;
+        padding: 30px 30px;
+    }
+    .signupformstart .inerformfield {
+        height: 100%;
+        background: #fff;
+    }
+    .MuiCard-root.formcard-start.signupform-card{
+        width: auto;
+        height: auto;
+        align-items: unset;
+        box-shadow: none;
+        padding-top: 0;
+    }
+
+    .toggle-menuarea {
+        display: flex;
+    }
+    /* checkbox start */
+    .signupformstart .buttoncomponent-start {
+        text-align: left;
+        margin-top: 20px;
+    }
+    p.checkboxtext {
+        font-size: 14px;
+        /* margin: 10px 0 0 0; */
+    }
+    .loginbutn-area {
+        display: block;
+    }
+   
+
+    /* checkbox end */
+}
+
+/* Responsive start for mobile view */
+
+
+/* ---------Mac book air responsive start---------- */
+
+@media screen and (min-width:1440px){
+
+    h3.formheading{
+        font-size: 1.375em;
+    }
+    p.forgotpswrd-txt{
+        font-size: 0.875em;
+    }
+    p.forsignuptxt{
+        font-size: 0.875em;
+    }
+    .formheader p.forgotpaswrdtxt{
+        font-size: 1.007em;
+    }
+    p.forgotpaswrdtxt{
+        font-size: 1.007em;
+    }
+    p.checkboxtext{
+        line-height: 16px;
+    }
+    .forgotpasswordmaincls .formerrormsg-area{
+        top: 17%;
+    }
+}

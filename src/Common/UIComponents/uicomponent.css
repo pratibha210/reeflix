@@ -1,0 +1,325 @@
+
+/* Button start */
+button.buttonclass {
+    background: #1f2124;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 13px;
+    padding: 0 12px;
+    height: 38px;
+    border-radius: 3px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+button.buttonclass:hover {
+    background: #121315;
+}
+button.buttonclass .fa {
+    padding-right: 5px;
+}
+.buttoncomponent-start .MuiCircularProgress-colorPrimary{
+    color: #fff
+}
+/* Button end */
+/* InfoCard Component Start */
+.cardpremiumdivstart {
+    background-color: #f18f00;
+    position: absolute;
+    top: 8px;
+    padding: 4px 8px 4px 5px;
+    left: 9px;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    color: white;
+    z-index: 1;
+}
+svg.MuiSvgIcon-root.cardpremiumstarcss {
+    height: 14px;
+    width: 14px;
+    margin-right: 3px;
+}
+p.cardpremiumtag {
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 500;
+    margin: 0;
+}
+.infocard-start{
+    position: relative;
+}
+.MuiCard-root.infocardcls{
+    margin: 0 0px;
+    position: relative;
+    cursor: pointer;
+    height: auto;
+    overflow: unset;
+    border-radius: 4px;
+    box-shadow: none;
+    /* margin-bottom: 35px; */
+    position: relative;
+    background: transparent;
+}
+.MuiCard-root.infocardcls:hover img.infocardimg{
+    transform: scale(1.1);
+}
+.topimgarea{
+    position: relative;
+    height: 130px;
+    width: 100%;
+    overflow: hidden;
+}
+img.infocardimg {
+    border-radius: 0;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    position: relative;
+    transition: all 0.3s linear 0s;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.previousnextbtndiv {
+    position: absolute;
+    bottom: 9.6%;
+    left: 20%;
+    z-index: 999;
+    display: flex;
+    width: 70px;
+    justify-content: space-between;
+}
+.previoustbtndiv,.nextbtndiv {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.previoustbtndiv:hover p.previousbtntext{
+    opacity: 1;
+}
+.nextbtndiv:hover p.nextbtntext{
+    opacity: 1;
+}
+p.previousbtntext {
+    margin: 0;
+    color: white;
+    margin-right: 6px;
+    font-size: 14px;
+    background-color: #2b2b2b;
+    padding: 4px 12px;
+    border-radius: 4px;
+    opacity: 0;
+    position: absolute;
+    left: -22px;
+    top: -35px;
+}
+p.nextbtntext {
+    margin: 0;
+    color: white;
+    /* margin-left: 6px; */
+    font-size: 14px;
+    background-color: #2b2b2b;
+    padding: 4px 20px 4px 10px;
+    border-radius: 4px;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    left: -15px;
+    top: -35px;
+    width: 100%;
+}
+.playicnarea{
+    position: absolute;
+    background-color: #00000082;
+    border-radius: 50%;
+    padding: 14px;
+    top: 36%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    bottom: 0;
+    height: 15px;
+    width: 15px;
+    box-sizing: content-box !important;
+}
+.carddetailarea {
+    background-color: #0e0e0e;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    padding: 10px 9px;
+    height: 73px;
+}
+p.shownamecls {
+    margin: 0;
+    color: white;
+    font-size: 15px;
+    line-height: 22px;
+    text-transform: capitalize;
+    -webkit-box-orient: vertical;
+    display: -webkit-box!important;
+    -webkit-line-clamp: 2!important;
+    overflow: hidden!important;
+    text-overflow: ellipsis!important;
+}
+p.showdescrptioncls {
+    font-size: 13px;
+    color: #c1c1c1;
+    margin: 3px 0 0 0;
+}
+.infocard-start.undefined svg.MuiSvgIcon-root.menudropdwn-icn {
+    background: #00000082;
+    border-radius: 0 2px 0 0;
+    padding: 4px;
+    color: #ddd;
+}
+.infocard-drpdwnmenu.dropdowncomponent .MuiPopover-paper{
+    margin-left: -64px;
+}
+/* InfoCard Component End */
+
+/* NoDataFound css start */
+.nodatafound-component {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inner-nodatafound {
+    text-align: center;
+    height: 83vh;
+    /* height: auto; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+    /* padding: 100px 0; */
+}
+
+p.nodata-txt {
+    margin: 15px 0 0;
+    color: #adadad;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+}
+img.novideoimg {
+    width: 100%;
+    height: 100%;
+}
+.nodata-imgarea {
+    width: 80px;
+    height: auto;
+}
+/* NoDataFound css end */
+
+/* Card Skeleton css start */
+.infocard-skeleton .MuiSkeleton-root.MuiSkeleton-text.MuiSkeleton-pulse {
+    transform: unset;
+    background: #2f2f2f;
+}
+.infocard-skeleton {
+    overflow: hidden;
+    height: 70vh;
+}
+.MuiCard-root.cardskeletoncls {
+    background: #0e0e0e;
+    margin-bottom: 35px;
+}
+.cardupperpart {
+    height: 130px;
+}
+.cardloweerpart {
+    height: 73px;
+    padding: 10px;
+    justify-content: space-around;
+    display: flex;
+    flex-flow: column;
+}
+
+/* Card Skeleton css end */
+/* NotificationMessage Component css start */
+
+.notifiactionmessage-component svg.MuiSvgIcon-root.alertcaneclicon {
+    cursor: pointer;
+    font-size: 15px;
+}
+.notifiactionmessage-component .MuiAlert-message {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+}
+.notifiactionmessage-component svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeSmall {
+    font-size: 16px;
+}
+.MuiAlert-icon svg.MuiSvgIcon-root {
+    font-size: 19px;
+}
+.notifiactionmessage-component .MuiAlert-icon {
+    margin-right: 8px;
+}
+/* NotificationMessage Component css end */
+
+
+/* For mozilla css start */
+@-moz-document url-prefix() {
+    .previousnextbtndiv {
+        bottom: 12%;
+        left: 89%;
+    }
+}
+/* Swarup Desktop responsive start */
+@media only screen and (device-width: 2560px){
+    .topimgarea{
+        height: 300px;
+    }
+    .dropdowncomponent.dropdownnavbar .MuiMenuItem-root {
+        min-height: 35px;
+        font-size: 18px !important;
+        padding-left: 18px;
+        padding-right: 30px;    
+    }
+    i.fa.dropdownfaicon{
+        font-size: 21px;
+    }
+    svg.MuiSvgIcon-root.cardpremiumstarcss {
+        height: 16px;
+        width: 16px;
+        margin-right: 5px;
+    }
+    p.cardpremiumtag {
+        font-size: 15px;
+    }
+    .cardpremiumdivstart {
+        padding: 5px 12px 5px 9px;
+    }
+    .removebtn {
+        font-size: 18px;
+        padding: 6px 12px;
+    }
+    svg.MuiSvgIcon-root.removeicn {
+        font-size: 15px;
+        margin-right: 5px;
+    }
+    p.shownamecls{
+        font-size: 25px;
+        line-height: 32px;
+    }
+    p.showtiming{
+        font-size: 20px;
+    }
+}
+/* Swarup Desktop responsive end */
+
+/* ---------Mac book air responsive start---------- */
+
+@media screen and (min-width:1440px){
+
+    .dropdowncomponent.dropdownnavbar .MuiMenuItem-root{
+        font-size: 15px;
+    }
+    p.shownamecls{
+        font-size: 1.007em;
+    }
+}
+
+/* ---------Mac book air responsive end---------- */

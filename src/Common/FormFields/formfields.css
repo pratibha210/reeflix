@@ -1,0 +1,223 @@
+/* DropdownFieldInput css start */
+.dropdownancher .MuiPaper-elevation1::after {
+    content: '';
+    position: absolute;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-bottom: 7px solid #fff;
+    top: -7px;
+    right: 4px;
+}
+.dropdownancher .MuiPaper-elevation1 {
+    position: relative;
+    box-shadow: none;
+}
+.dropdowncomponent .MuiPopover-paper {
+    overflow: unset;
+    margin-top: 5px;
+    box-shadow: 2px 0 7px 1px rgba(0, 0, 0, 0.09),
+     0px 1px 8px 1px rgba(0, 0, 0, 0.09),
+      0px 0 6px 0px rgba(0, 0, 0, 0.09);
+}
+.dropdowncomponent ul.MuiList-root.dropdown-list {
+    padding: 5px 0;
+}
+.dropdowncomponent .MuiMenuItem-root {
+    padding: 0 22px 0 10px;
+    min-height: 30px;
+    font-size: 13px;
+    font-family: 'Roboto',sans-serif;
+}
+i.fa.dropdownfaicon {
+    padding-right: 10px;
+    font-size: 15.5px;
+    color: #757575;
+    line-height: 0;
+}
+/* DropdownFieldInput css end */
+/* SearchFieldInput css start */
+.searchfieldinput .MuiPaper-elevation1 {
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+.searchfieldinput .MuiIconButton-root.searchinputicon {
+    padding: 0 10px;
+    height: 100%;
+    line-height: 0px;
+}
+.searchfieldinput .MuiIconButton-root.searchinputicon .MuiSvgIcon-root{
+    font-size: 18px;
+    color: #c7c7c7;
+}
+.searchfieldinput .MuiInputBase-root.searchninput {
+    height: 100%;
+}
+.searchfieldinput input.MuiInputBase-input {
+    padding-left: 10px;
+    color: #eee;
+    font-size: 14px;
+}
+.searchfieldinput input.MuiInputBase-input::placeholder {
+    color: #e8e8e8;
+    font-size: 14px;
+    line-height: 15px;
+}
+/* SearchFieldInput css end */
+
+/* TextFieldInput css start */
+.MuiTextField-root.textareacls.textfieldclass .MuiInputBase-root {
+    height: unset !important;
+    padding: 8px 4px;
+}
+.MuiTextField-root.textfieldclass .MuiInputBase-root {
+    height: 40px;
+}
+.MuiTextField-root.textfieldclass .MuiOutlinedInput-inputMarginDense{
+    font-size: 14px;
+    color: #1f2123;
+}
+.MuiTextField-root.textfieldclass .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline{
+    border-color: rgb(117, 117, 117);
+}
+.MuiTextField-root.textfieldclass .Mui-focused .MuiOutlinedInput-notchedOutline{
+    border-color: rgb(117, 117, 117) !important;
+    border-width: 1px !important;
+}
+.MuiTextField-root.textfieldclass {
+    width: 100%;
+}
+.MuiFormHelperText-root.errormsg {
+    display: flex;
+    align-items: center;
+    margin-top: 0;
+    color: #e40712;
+    font-size: 11px;
+    line-height: 0px;
+    position: absolute;
+    top: 96%;
+}
+svg.MuiSvgIcon-root.erroricon {
+    font-size: 15px;
+    margin-right: 5px;
+}
+.MuiTextField-root.textfieldclass .MuiOutlinedInput-inputMarginDense::placeholder {
+    font-size: 13.5px;
+    font-family: 'Roboto', sans-serif;
+    color: #5a5a5a;
+    font-weight: 400;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+.MuiInputLabel-root.textinputlabel{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: rgb(128, 128, 128);
+    font-size: 18px;
+}
+/* TextFieldInput css end */
+.selectfieldinput .MuiFormControl-root {
+    width: 100%;
+    padding: 0;
+}
+.selectfieldinput .MuiSelect-outlined{
+    padding: 0;
+    height: 40px;
+}
+.selectfieldinput .MuiInput-underline.selectinput {
+    margin-top: 23px;
+    border: 1px solid #c4c4c4;
+    border-radius: 4px;
+
+    height: 40px;
+}
+.selectfieldinput .MuiSelect-select.MuiSelect-select{
+    padding: 0;
+    padding-left: 12px;
+    height: 100%;
+    font-size: 14px;
+    color: #1f2123;
+}
+.selectfieldinput .MuiInput-underline:before, .selectfieldinput .MuiInput-underline:after{
+    display: none;
+}
+.selectfieldinput .MuiSelect-select:focus, .selectfieldinput .MuiSelect-select:hover{
+    background-color: transparent;
+    border-radius: 4px;
+    border: 1px solid rgb(117, 117, 117)
+}
+.selectfieldinput .MuiInputLabel-root.textinputlabel {
+    /* color: rgba(0, 0, 0, 0.54);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300; */
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: rgb(128, 128, 128);
+    font-size: 18px;
+}
+/* DatePicker Input css start */
+.newdatetimefield {
+    display: flex;
+    flex-flow: column;
+}
+span.datepickerlabel {
+    font-size: 13px;
+    color: #ccc;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.newdatetimefield .react-datepicker__input-container {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    margin: 10px 0;
+}
+.newdatetimefield .react-datepicker__input-container input{
+    width: -webkit-fill-available;
+    border: 1px solid #545454;
+    background: transparent;
+    color: #ccc;
+    padding-left: 10px;
+    line-height: 39px;
+    border-radius: 4px;
+    height: 36px;
+}
+.newdatetimefield .react-datepicker__input-container input:focus {
+    border: 1px solid rgb(117, 117, 117) !important;
+    outline: 0;
+    border-radius: 4px;
+    width: -webkit-fill-available;
+}
+.newdatetimefield .react-datepicker__close-icon{
+    pointer-events: none;
+    background-color: #676767;
+    padding: 0 6px;
+}
+.newdatetimefield .react-datepicker-wrapper button::after{
+    content: '\f073';
+    font-family: FontAwesome;
+    font-size: 14px;
+    padding: 5px;
+    background-color: #676767;
+    cursor: pointer;
+}
+/* .react-datepicker-wrapper button::after {
+    content: "\f095";
+ } */
+/* DatePicker Input css end */
+
+/* ---------Mac book air responsive start---------- */
+
+@media screen and (min-width:1440px){
+
+    .searchfieldinput input.MuiInputBase-input::placeholder {
+        color: #eee;
+    }
+    span.datepickerlabel{
+        font-size: 0.833em; 
+    }
+}
